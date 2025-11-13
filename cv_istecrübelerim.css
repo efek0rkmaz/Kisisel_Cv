@@ -6,9 +6,7 @@ body {
     margin: 0;
     padding: 0;
     
-    /* İsteğin buydu: Hem "soft" hem "canlı" bir arka plan.
-      Bu yumuşak renk geçişi (gradient) tam olarak bunu yapıyor.
-    */
+   
     background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
     
     /* Arka planın sayfa kaysa bile sabit kalmasını sağlar */
@@ -34,7 +32,7 @@ header h1 {
     color: #5b86e5;
     padding: 10px 25px;
     text-decoration: none;
-    border-radius: 25px; /* Yumuşak kenarlar */
+    border-radius: 25px; /* Yumuşak kenarlar sınavda çıkıt :D */
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -53,10 +51,10 @@ main {
     padding: 0 20px 40px 20px;
 }
 
-/* Her bir tecrübe bölümü için "kart" stili */
+/* Her bir tecrübe bölümü için kart stili */
 .job-card {
-    background-color: #ffffff; /* Kartlar beyaz olsun (okunaklılık için) */
-    border-radius: 10px;      /* Kenarları "soft" olsun */
+    background-color: #ffffff; /* Kartlar beyaz  */
+    border-radius: 10px;      /* Kenarları olsun */
     padding: 25px 30px;
     margin-bottom: 25px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); /* Yumuşak gölge */
