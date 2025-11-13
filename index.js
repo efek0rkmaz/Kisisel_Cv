@@ -1,4 +1,4 @@
-// Bu kod, sayfa tamamen yüklendiğinde çalışır
+
 document.addEventListener("DOMContentLoaded", function() {
     
     // --- Profil Resmi Döndürme Kodu ---
@@ -18,5 +18,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Başka JS koduna gerek kalmadı!
+   
 });
