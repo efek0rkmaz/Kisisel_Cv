@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     
-    /* İş tecrübeleri sayfanla aynı "soft" arka planı kullanalım */
+    /* İş tecrübeleri sayfanla aynı arka planı kullanalım */
     background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
     background-attachment: fixed;
 }
@@ -42,7 +42,7 @@ header h1 {
     transform: translateY(-2px);
 }
 
-/* Ana içerik (Tüm sertifika kartlarını kapsar) */
+/* Ana içerik  */
 main {
     max-width: 800px; /* Geniş ekranlarda çok yayılmasın */
     margin: 0 auto;   /* Sayfanın ortasında dursun */
